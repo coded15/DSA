@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/ichchha/Desktop/Learning/DSA/fundamentals/sorting/mergesort'
+relocations:
+  - { offset: 0x2479, size: 0x8, addend: 0x0, symName: __ZStL8__ioinit, symObjAddr: 0xF849, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offset: 0x2586, size: 0x8, addend: 0x0, symName: __GLOBAL__sub_I_mergesort.cpp, symObjAddr: 0x3C8, symBinAddr: 0x100000A4C, symSize: 0x14 }
+  - { offset: 0x259D, size: 0x8, addend: 0x0, symName: __Z41__static_initialization_and_destruction_0v, symObjAddr: 0x38C, symBinAddr: 0x100000A10, symSize: 0x3C }
+  - { offset: 0x25BB, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x264, symBinAddr: 0x100000904, symSize: 0x10C }
+  - { offset: 0x2634, size: 0x8, addend: 0x0, symName: __Z9mergeSortPiii, symObjAddr: 0x1EC, symBinAddr: 0x10000088C, symSize: 0x78 }
+  - { offset: 0x268F, size: 0x8, addend: 0x0, symName: __Z5mergePiiii, symObjAddr: 0x0, symBinAddr: 0x1000006A0, symSize: 0x1EC }
+...
