@@ -60,7 +60,6 @@ int main()
 {
     int n, x;
     cin >> n >> x;
-    int* A = new int[n];
     while(n--)
     {
         int entry;
