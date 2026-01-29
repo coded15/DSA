@@ -12,24 +12,25 @@ int main()
     {
         char_freq[s[i]]++;
     }
-    int odd_char_count = 0, one_count = 0;
+    int odd_char_count = 0;
+    // one_count = 0;
     for (auto it : char_freq)
     {
         cout << it.second << " ";
-        if (it.second % 2 != 0 && it.second != 1)
+        if (it.second % 2 != 0)
         {
             odd_char_count++;
         }
-        if (it.second == 1)
-        {
-            one_count++;
-        }
+        // if (it.second == 1)
+        // {
+        //     one_count++;
+        // }
     }
     cout << endl
-         << odd_char_count << " " << one_count << endl;
+         << odd_char_count << " " << endl;
     if (n % 2 == 0)
     {
-        if (odd_char_count + one_count <= 2)
+        if (odd_char_count <= 2)
         {
             cout << "true";
             return 0;
@@ -37,7 +38,7 @@ int main()
     }
     else
     {
-        if (odd_char_count + one_count <= 3)
+        if (odd_char_count <= 1)
         {
             cout << "true";
             return 0;
