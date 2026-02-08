@@ -1,0 +1,6 @@
+Q1. What are data structures?
+A1. Data structure are used to store data in memory in a way that it can be effectively accessed and modified.
+
+Anytime you normally declare a variable or any data structure it is stored inside a STACK.
+
+

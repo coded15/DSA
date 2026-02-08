@@ -1,0 +1,4 @@
+- HEAP lies outside the execution context of a program, that is why we need pointers to access data stored in heap.
+- Or look at pointers as a medium to access memory outside program
+- pointer is not same as reference variable. Reference variable are just the nickname given to the same variable, they have to be initialized at the same time as reference variable declaration. While you are deferencing a pointer variable you will have to use (*) whereas it is not needed in case of reference variable.
+- use of pointer also comes for passing parameter by reference in a function signature.
