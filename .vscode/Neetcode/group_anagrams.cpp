@@ -4,6 +4,7 @@ using namespace std;
 
 void groupAnagrams(vector<string> &strs)
 {
+    // well initially I was not correct of how I will store this data inside the map, the first though that came to my mind is char conr because that is what my brain thinks of whenver I have to find duplicates or find similarity in strings, but this time what will be the key and what will be the value, as a first thought I thought of pushing the chars in a map and then store that map inside another map to find it using key, but I am not sure if I can e
     unordered_map<string, vector<string>> anagram;
     for (const auto &it : strs)
     {
