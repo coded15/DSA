@@ -4,6 +4,7 @@
 Hmm so many things to say about this problem
 1. MOST IMP: HASHMAP DOESN'T STORE THE ELEMENTS IN THE ORDER IN WHICH IT IS INPUTTED
 2. make sure that you are not using the variable that you are modifying inside the loop in the condition of a the loop itself in anyway
+3. Their was no need to pivot my logic around the placement of that number that occurs most, instead my logic must have been pivoted around the first occured integer
 */
 
 #include <iostream>
